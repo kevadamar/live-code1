@@ -1,0 +1,18 @@
+STORE "nilaiMhs" WITH any value
+IF "nilaiMhs" >= 80 && "nilaiMhs" <= 100
+	DISPLAY "A"
+
+ELSE IF "nilaiMhs" >= 65 && "nilaiMhs" < 80
+	DISPLAY "B"
+
+ELSE IF "nilaiMhs" >= 50 && "nilaiMhs" < 65
+	DISPLAY "C"
+
+ELSE IF "nilaiMhs" >= 35 && "nilaiMhs" < 50
+	DISPLAY "D"
+
+ELSE IF "nilaiMhs" >= 0 && "nilaiMhs" < 35
+	DISPLAY "E"
+
+ELSE 
+    DISPLAY "nilai invalid"
